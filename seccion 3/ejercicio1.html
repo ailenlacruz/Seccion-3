@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ejercicio1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="inicio" class="dark">
+    <nav>
+        <a class="logotipo" href="inicio"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 14C0 6.29293 6.29293 0 14 0C21.7424 0 28 6.29293 28 14C28 21.7071 21.7071 28 14 28C6.29293 28 0 21.7071 0 14ZM13.3283 27.0455H14C21.2121 27.0455 27.0455 21.2121 27.0455 13.9646C27.0455 7 21.5657 1.30808 14.6717 0.954545H14C6.78788 0.954545 0.954545 6.78788 0.954545 14C0.954545 21 6.43434 26.6919 13.3283 27.0455ZM14.0352 5.16139L18.3837 15.1664C18.207 15.2018 17.5706 15.3432 17.5706 15.3432L14.0352 7.21189L11.9847 11.9846C11.8787 11.9846 11.0655 12.0907 11.0655 12.0907L14.0352 5.16139ZM19.6918 20.2927L18.4544 17.3937C18.4544 17.3937 19.1969 17.2169 19.2322 17.2169L20.4342 19.9745L19.6918 20.2927ZM10.0756 14.424L7.70696 19.9392L8.44938 20.2573L11.0302 14.2472C11.0302 14.2472 10.5352 14.3533 10.0756 14.424ZM18.5606 13.8937C19.7979 14.2119 20.4697 14.6008 20.4697 14.8836C20.4697 15.3786 18.1717 16.3331 13.9646 16.3331C12.8333 16.3331 11.808 16.2624 10.9596 16.1563L10.606 16.8988C11.6666 17.0402 12.8333 17.1109 13.9646 17.1109C17.5 17.1109 21.2828 16.4038 21.2828 14.8483C21.2828 13.9291 19.9747 13.2927 18.1363 12.9392L18.5606 13.8937ZM13.9646 12.5503C14.5303 12.5503 15.0959 12.5856 15.6616 12.621L16.0151 13.4341C15.3788 13.3988 14.707 13.3634 13.9646 13.3634C9.75754 13.3634 7.45956 14.318 7.45956 14.8129C7.45956 15.025 7.91916 15.3432 8.803 15.626L8.48481 16.3685C7.3535 16.0149 6.64643 15.4846 6.64643 14.8129C6.64643 13.2574 10.4293 12.5503 13.9646 12.5503Z"></path></svg></a>
+
+        <div class="enlaces">
+            <a href="#" class="enlaces__item">Hombres</a>
+            <a href="#" class="enlaces__item">Mujeres</a>
+            <a href="#" class="enlaces__item">Contacto</a>
+            
+            <button class="switch" id="switch">
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></svg></span>
+                <span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg></span>
+            </button>
+
+            <a href="#" id="menuLateral" class="menu"><span>Menu</span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+            </a> 
+        </div>         
+    </nav>
+    <div class="aside" id="aside">
+        <a href="#" id="exit"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg></a>
+        <ul>
+        <li class="menu__item"><a href="#">Inicio</a></li>
+        <li class="menu__item"><a href="#">Productos</a></li>
+        <li class="menu__item"><a href="#">Nosotros</a></li>
+        <li class="menu__item"><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="container">
+            <div class="carrusel">
+                <div class="carroimg"><img src="img/10.png" alt="1"></div>
+                <div class="carroimg"><img src="img/9.png" alt="2"></div> 
+                <div class="carroimg"><img src="img/11.jpg" alt="3"></div>
+                <div class="carroimg"><img src="img/7.jpg" alt="4"></div>
+            </div>
+            <span class="derecha">></span>
+            <span class="izquierda"><</span>
+        </section>
+        <hr>
+        <h1 class="titulo">Productos</h1>
+
+        <div class="grid">
+            <div class="card">
+                <img src="img/1.webp" alt="">
+                <div class="botones">
+                    <a href="#" class="boton primario">Comprar</a>
+                    <a href="#" class="boton secundario">Ver más</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/2.webp" alt="">
+                <div class="botones">
+                    <a href="#" class="boton primario">Comprar</a>
+                    <a href="#" class="boton secundario">Ver más</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/3.webp" alt="">
+                <div class="botones">
+                    <a href="#" class="boton primario">Comprar</a>
+                    <a href="#" class="boton secundario">Ver más</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/4.webp" alt="">
+                <div class="botones">
+                    <a href="#" class="boton primario">Comprar</a>
+                    <a href="#" class="boton secundario">Ver más</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="section3">
+            <img src="img/13.webp" alt="">
+            <div class="text">
+                <h2>The Phase Collection</h2>
+                <p>Inspirada en nuestra popular Phase Full-Zip para hombre y mujer, la colección Phase completa presenta nuestros best sellers en nuevas combinaciones de colores, así como nuevos estilos, con el mismo forro acolchado y aislante y los mismos elementos suaves de algodón y cachemira.</p>
+                <button>Explorar Coleccion</button>
+            </div>
+        </div>
+        
+    </footer>
+
+    <script src="ejercicio1.js"></script>
+</body>
+</html>
