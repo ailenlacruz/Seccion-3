@@ -50,4 +50,4 @@ izquierda[0].addEventListener('click',function(){
     }
 })
 
-window.open('popup.html', 'width: 40px', 'height: 40px');
+window.open('index2.html', 'width: 40px', 'height: 40px');
